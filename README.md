@@ -1,5 +1,7 @@
 # Sports Platform
 
+**Live Frontend URL (for testing):** [https://sports-mini-platform.netlify.app/](https://sports-mini-platform.netlify.app/)
+
 **Live Backend URL (for testing):** [https://sports-mini-platform.vercel.app/](https://sports-mini-platform.vercel.app/)
 
 A minimal sports/games platform with authentication, a games list, and favorites support.
@@ -48,23 +50,9 @@ Create a `.env` file in the `backend` folder (see `.env.example`). Required vari
 
 - `PORT` - backend port (default 5000)
 
-# Sports / Casino Mini Platform — Full-Stack Intern Assessment
 
-Start date: 1st of January, 2026
-End date: 4th of January, 2026
-Duration: 4 Days
 
-This repository contains the implementation of the assessment: a minimal sports/casino mini platform with authentication, games listing, filtering, and favorites.
 
-Contents
-
-- Backend: [backend](backend)
-- Frontend: [frontend](frontend)
-
-Quick Links
-
-- Backend entry: [backend/server.js](backend/server.js)
-- Frontend entry: [frontend/src/App.jsx](frontend/src/App.jsx)
 
 Setup
 
@@ -205,24 +193,9 @@ Bonus Features (status)
 - Unit tests: not provided
 - Deployment:  provided
 
-Submission
-After completing the assignment, submit your details using the Submission Form:
-https://forms.gle/8UYxeEwP3GdnfJtLA
 
-Commit guidance
-To keep a clear, meaningful commit history, follow these guidelines:
 
-- Use short, imperative messages: `feat: add favorites endpoint`
-- Group related changes in a single commit
-- Use `git add -p` to stage logical chunks
 
-Example workflow:
-
-```bash
-git checkout -b feat/favorites
-git add .
-git commit -m "feat: add favorites endpoints and favorites table"
-git push origin feat/favorites
 ```
 
 Notes
@@ -259,4 +232,4 @@ Notes:
 
 ---
 
-If you want, I can create a PR or commit these changes to a branch for you. Which would you prefer?
+
