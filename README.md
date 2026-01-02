@@ -32,9 +32,12 @@ Create a `.env` file in the `backend` folder (see `.env.example`). Required vari
 
 ##  Environment Variables backend
 +Create a `.env` file in the `backend/` directory:
-+```env
++```
+
 +PORT=5000
+
 +JWT_SECRET=your_secret_key
+
 +DB_URL=postgresql://user:password@localhost:5432/dbname
 
 ```bash
