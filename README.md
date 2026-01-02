@@ -24,9 +24,9 @@ Prerequisites:
 
 - PostgreSQL (or a hosted Postgres like Neon)
 
--JWT(web token)
+- JWT(web token)
 
--Bcrypt (Hashing Passwords)
+- Bcrypt (Hashing Passwords)
 
 Backend
 ## Environment
@@ -59,7 +59,7 @@ Prerequisites:
 
 - React JS 18+
 - Vite
--Tailwind CSS
+- Tailwind CSS
 
 
 
