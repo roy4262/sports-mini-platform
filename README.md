@@ -21,8 +21,11 @@ A minimal sports/games platform with authentication, a games list, and favorites
 Prerequisites:
 
 - Node.js 18+ and npm
+
 - PostgreSQL (or a hosted Postgres like Neon)
+
 -JWT(web token)
+
 -Bcrypt (Hashing Passwords)
 
 Backend
