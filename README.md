@@ -16,7 +16,7 @@ A minimal sports/games platform with authentication, a games list, and favorites
 - Backend entry: [backend/server.js](backend/server.js)
 - Frontend entry: [frontend/src/App.jsx](frontend/src/App.jsx)
 
-## Setup
+## Setup Project backend
 
 Prerequisites:
 
@@ -46,14 +46,14 @@ node server.js
 
 The backend will auto-create `users` and `favorites` tables on startup (see `backend/db.js`).
 
-Frontend
+## Setup Project frontend
 
 ## Environment
 
 Create a `.env` file in the `frontend` folder (see `.env.example`). Required variables:
 
 
-##  Environment Variables backend
+##  Environment Variables frontend
 +Create a `.env` file in the `backend/` directory:
 +```env
 +VITE_API_BASE_URL=http://localhost:5000 
