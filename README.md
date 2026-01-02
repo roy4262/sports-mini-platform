@@ -1,5 +1,7 @@
 # Sports Platform
 
+**Live Backend URL (for testing):** [https://sports-mini-platform.vercel.app/](https://sports-mini-platform.vercel.app/)
+
 A minimal sports/games platform with authentication, a games list, and favorites support.
 
 **Contents**
@@ -196,12 +198,12 @@ Frontend Notes
 
 Bonus Features (status)
 
-- Search: not implemented
-- Pagination/infinite scroll: not implemented
+- Search: implemented
+- Pagination/infinite scroll:  implemented
 - Protected routes: implemented (`ProtectedRoute` component)
-- Docker: not provided
+- Docker: provided
 - Unit tests: not provided
-- Deployment: not provided
+- Deployment:  provided
 
 Submission
 After completing the assignment, submit your details using the Submission Form:
@@ -230,7 +232,7 @@ Notes
 
 ---
 
-## Docker (optional)
+## Docker Setup
 
 This repository includes Dockerfiles and a `docker-compose.yml` to run the full stack locally (Postgres + backend + frontend).
 
