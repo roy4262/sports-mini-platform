@@ -24,6 +24,18 @@ Prerequisites:
 - PostgreSQL (or a hosted Postgres like Neon)
 
 Backend
+## Environment
+
+Create a `.env` file in the `backend` folder (see `.env.example`). Required variables:
+
+- `PORT` - backend port (default 5000)
+
+##  Environment Variables backend
++Create a `.env` file in the `backend/` directory:
++```env
++PORT=5000
++JWT_SECRET=your_secret_key
++DB_URL=postgresql://user:password@localhost:5432/dbname
 
 ```bash
 cd backend
@@ -36,43 +48,15 @@ The backend will auto-create `users` and `favorites` tables on startup (see `bac
 
 Frontend
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Open the frontend at the address shown by Vite (usually http://localhost:5173) and the backend at http://localhost:5000 by default.
-
 ## Environment
 
-Create a `.env` file in the `backend` folder (see `.env.example`). Required variables:
-
-- `PORT` - backend port (default 5000)
+Create a `.env` file in the `frontend` folder (see `.env.example`). Required variables:
 
 
-
-
-
-Setup
-
-Prerequisites:
-
-- Node.js 18+ and npm
-- PostgreSQL (or a hosted Postgres like Neon)
-
-Backend
-
-```bash
-cd backend
-npm install
-# start server (or use nodemon if installed)
-node server.js
-```
-
-The backend auto-creates `users` and `favorites` tables on startup (see `backend/db.js`).
-
-Frontend
+##  Environment Variables backend
++Create a `.env` file in the `backend/` directory:
++```env
++VITE_API_BASE_URL=http://localhost:5000 
 
 ```bash
 cd frontend
@@ -82,14 +66,10 @@ npm run dev
 
 Open the frontend at the address shown by Vite (usually http://localhost:5173) and the backend at http://localhost:5000 by default.
 
-Environment
-Create a `.env` file in the `backend` folder (see `.env.example`). Required variables:
 
-- `PORT` - backend port (default 5000)
-- `JWT_SECRET` - secret for signing JWT tokens
-- `DB_URL` - Postgres connection string
 
-Example `.env` file: [backend/.env.example](backend/.env.example)
+```
+
 
 Assessment Checklist & Implementation Status
 
