@@ -22,6 +22,8 @@ Prerequisites:
 
 - Node.js 18+ and npm
 - PostgreSQL (or a hosted Postgres like Neon)
+-JWT(web token)
+-Bcrypt (Hashing Passwords)
 
 Backend
 ## Environment
@@ -50,6 +52,13 @@ node server.js
 The backend will auto-create `users` and `favorites` tables on startup (see `backend/db.js`).
 
 ## Setup Project frontend
+Prerequisites:
+
+- React JS 18+
+- Vite
+-Tailwind CSS
+
+
 
 ## Environment
 
