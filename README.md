@@ -182,13 +182,6 @@ Bonus Features (status)
 
 ```
 
-Notes
-
-- The backend reads game data from `backend/matches.json`. For production, move games to a DB or external API.
-- `backend/db.js` automatically creates tables on startup.
-
----
-
 ## Docker Setup
 
 This repository includes Dockerfiles and a `docker-compose.yml` to run the full stack locally (Postgres + backend + frontend).
@@ -216,4 +209,14 @@ Notes:
 
 ---
 
+
+
+
+
+Notes
+
+- The backend reads game data from `backend/matches.json`. For production, move games to a DB or external API.
+- `backend/db.js` automatically creates tables on startup.
+
+---
 
