@@ -1,0 +1,34 @@
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build
+dist/
+build/
+
+# Misc
+coverage/
+.env.example (keep this)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
