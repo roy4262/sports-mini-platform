@@ -32,7 +32,7 @@ Create a `.env` file in the `backend` folder (see `.env.example`). Required vari
 
 ##  Environment Variables backend
 +Create a `.env` file in the `backend/` directory:
-+```
++
 
 +PORT=5000
 
@@ -58,7 +58,8 @@ Create a `.env` file in the `frontend` folder (see `.env.example`). Required var
 
 ##  Environment Variables frontend
 +Create a `.env` file in the `backend/` directory:
-+```env
++env
+
 +VITE_API_BASE_URL=http://localhost:5000 
 
 ```bash
