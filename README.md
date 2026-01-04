@@ -1,5 +1,10 @@
 # Sports Platform
 
+
+<img width="1885" height="1082" alt="Screenshot 2026-01-04 204051" src="https://github.com/user-attachments/assets/8edcf065-6d3b-4e02-bae5-df00581c6cce" />
+
+```
+```
 **Live Frontend URL (for testing):** [https://sports-mini-platform.netlify.app/](https://sports-mini-platform.netlify.app/)
 
 **Live Backend URL (for testing):** [https://sports-mini-platform.vercel.app/](https://sports-mini-platform.vercel.app/)
