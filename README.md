@@ -35,7 +35,7 @@ Prerequisites:
 
 - Bcrypt (Hashing Passwords)
 
-Backend
+
 ## Environment
 
 Create a `.env` file in the `backend` folder (see `.env.example`). Required variables:
