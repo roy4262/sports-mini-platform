@@ -1,4 +1,4 @@
-#Mini Sports Platform
+## Mini Sports Platform
 
 ## Live link- https://sports-mini-platform.netlify.app/
 
